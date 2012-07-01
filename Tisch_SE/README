@@ -1,0 +1,1 @@
+Tisch is a tool for creating your own table. This tool is entirely written in Processing and requires PeasyCam, Toxiclibs, Sunflow and OpenGL. I already put all required libraries in the repository, so you just have to clone the repository and it should run perfectly. A small Flickr set is available here: http://www.flickr.com/photos/mrzzl/sets/72157629063797250/
