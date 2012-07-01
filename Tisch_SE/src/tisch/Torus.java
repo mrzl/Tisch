@@ -15,7 +15,6 @@
  *
  */
 
-
 package tisch;
 
 import processing.core.PApplet;
@@ -23,6 +22,14 @@ import processing.core.PConstants;
 import toxi.geom.Vec3D;
 import toxi.geom.mesh.WETriangleMesh;
 
+/**
+ * Torus.java
+ * 
+ * @author marcels
+ * 
+ *         this class contains the mesh for a torus
+ * 
+ */
 public class Torus {
 	private float outerRadius;
 	private float innerRad;
@@ -80,7 +87,7 @@ public class Torus {
 						z = (outerRad + innerRad * cIn) * sOut;
 					}
 
-					tmp[counter] = new Vec3D(x, y+paddingY, z);
+					tmp[counter] = new Vec3D(x, y + paddingY, z);
 					counter++;
 					genCounter++;
 					if (counter >= 3) {

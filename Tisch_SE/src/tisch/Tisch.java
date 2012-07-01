@@ -47,8 +47,10 @@ import toxi.volume.IsoSurface;
 import toxi.volume.MeshVoxelizer;
 import toxi.volume.VolumetricSpace;
 
-/*
+/**
  * Tisch.java
+ * 
+ * 
  * 
  *  Wenn das Programm von Github gecloned nicht funktioniert müssen folgende Schritte durchgeführt werden:
  *  1. Rechtsklick aufs Projekt -> Build Path
